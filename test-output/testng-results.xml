@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-02T00:10:15 IST" name="Suite" finished-at="2023-12-02T00:10:23 IST" duration-ms="8176">
+    <groups>
+    </groups>
+    <test started-at="2023-12-02T00:10:15 IST" name="Test1" finished-at="2023-12-02T00:10:20 IST" duration-ms="5322">
+      <class name="chainingAPI.CreateAPI">
+        <test-method signature="createuser(org.testng.ITestContext)[pri:0, instance:chainingAPI.CreateAPI@a2431d0]" started-at="2023-12-02T00:10:15 IST" name="createuser" finished-at="2023-12-02T00:10:20 IST" duration-ms="5245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@742ff096]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+      </class> <!-- chainingAPI.CreateAPI -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-12-02T00:10:20 IST" name="Test2" finished-at="2023-12-02T00:10:21 IST" duration-ms="696">
+      <class name="chainingAPI.GetUser">
+        <test-method signature="test_getuser(org.testng.ITestContext)[pri:0, instance:chainingAPI.GetUser@7e7be63f]" started-at="2023-12-02T00:10:20 IST" name="test_getuser" finished-at="2023-12-02T00:10:21 IST" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@11e24688]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getuser -->
+      </class> <!-- chainingAPI.GetUser -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-12-02T00:10:21 IST" name="Test3" finished-at="2023-12-02T00:10:22 IST" duration-ms="1244">
+      <class name="chainingAPI.UpdateUser">
+        <test-method signature="test_updateuser(org.testng.ITestContext)[pri:0, instance:chainingAPI.UpdateUser@18d87d80]" started-at="2023-12-02T00:10:21 IST" name="test_updateuser" finished-at="2023-12-02T00:10:22 IST" duration-ms="1217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@48da64f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateuser -->
+      </class> <!-- chainingAPI.UpdateUser -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-12-02T00:10:22 IST" name="Test4" finished-at="2023-12-02T00:10:23 IST" duration-ms="570">
+      <class name="chainingAPI.DeleteUser">
+        <test-method signature="test_deleteuser(org.testng.ITestContext)[pri:0, instance:chainingAPI.DeleteUser@25fb8912]" started-at="2023-12-02T00:10:22 IST" name="test_deleteuser" finished-at="2023-12-02T00:10:23 IST" duration-ms="564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f207142]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deleteuser -->
+      </class> <!-- chainingAPI.DeleteUser -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
